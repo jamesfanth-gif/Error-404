@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  text-align: center;
+}
+
+.page_404 {
+  padding: 40px 0;
+}
+
+/* 404 背景插圖（通常使用 GIF 或背景圖達到動態效果） */
+.four_zero_four_bg {
+  background-image: url('https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif');
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+/* 說明文字與按鈕外框 */
+.content_box_404 {
+  margin-top: 20px;
+}
+
+.content_box_404 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content_box_404 p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* 返回首頁按鈕樣式 */
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.link_404:hover {
+  background: #2e8b27;
+}
